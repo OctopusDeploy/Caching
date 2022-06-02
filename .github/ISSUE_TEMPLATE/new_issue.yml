@@ -35,7 +35,7 @@ body:
     attributes:
       label: Error and Stacktrace
       description: If you have an error message and/or stacktrace, add it here. No need to use backticks. Prefer text over a screenshot so it can be searched for.
-      render: Shell
+      render: shell
   - type: textarea
     id: further-information
     attributes:
