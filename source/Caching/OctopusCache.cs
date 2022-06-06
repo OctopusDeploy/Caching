@@ -19,7 +19,7 @@ namespace Octopus.Caching
         {
             try
             {
-                Console.WriteLine("Test");
+                Console.WriteLine("Test2");
                 return (TItem)GetOrAddEntry(key, valueFactory, expiresIn).Item.Value;
             }
             catch
